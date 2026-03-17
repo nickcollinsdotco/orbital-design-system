@@ -1,0 +1,2139 @@
+{
+  "General": {
+    "FontFamily": {
+      "heading": {
+        "$type": "fontFamilies",
+        "$value": "Plus Jakarta Sans"
+      },
+      "text": {
+        "$type": "fontFamilies",
+        "$value": "Plus Jakarta Sans"
+      },
+      "captions": {
+        "$type": "fontFamilies",
+        "$value": "Geist Mono"
+      }
+    },
+    "Color": {
+      "Background": {
+        "base": {
+          "$type": "color",
+          "$value": "{Color.SpaceGray.800}"
+        },
+        "hover": {
+          "$type": "color",
+          "$value": "{Color.SpaceGray.700}"
+        },
+        "intense": {
+          "$type": "color",
+          "$value": "{Color.SpaceGray.700}"
+        },
+        "extraIntense": {
+          "$type": "color",
+          "$value": "{Color.SpaceGray.600}"
+        },
+        "muted": {
+          "$type": "color",
+          "$value": "{Color.SpaceGray.900}"
+        },
+        "extraMuted": {
+          "$type": "color",
+          "$value": "{Color.Neutral.100}"
+        },
+        "canvas": {
+          "$type": "color",
+          "$value": "{Color.SpaceGray.600}"
+        },
+        "overlay": {
+          "$type": "color",
+          "$value": "{Color.Alpha.Black.400}"
+        },
+        "popover": {
+          "$type": "color",
+          "$value": "{Color.SpaceGray.500}"
+        },
+        "disabled": {
+          "$type": "color",
+          "$value": "{Color.SpaceGray.700}"
+        },
+        "info": {
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "0.8",
+                "space": "lch"
+              }
+            }
+          },
+          "$type": "color",
+          "$value": "{Color.Blue.500}"
+        },
+        "destructive": {
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "0.8",
+                "space": "lch"
+              }
+            }
+          },
+          "$type": "color",
+          "$value": "{General.Color.Destructive.base}"
+        },
+        "warning": {
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "0.8",
+                "space": "lch"
+              }
+            }
+          },
+          "$type": "color",
+          "$value": "{General.Color.Warning.base}"
+        },
+        "success": {
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "0.8",
+                "space": "lch"
+              }
+            }
+          },
+          "$type": "color",
+          "$value": "{General.Color.Success.base}"
+        },
+        "accent": {
+          "$type": "color",
+          "$value": "{General.Color.Accent.base}"
+        },
+        "accentHover": {
+          "$type": "color",
+          "$value": "{General.Color.Accent.intense}"
+        },
+        "transparent": {
+          "$type": "color",
+          "$value": "{Color.Neutral.transparent}"
+        },
+        "hoverSubtle": {
+          "$type": "color",
+          "$value": "{Color.Alpha.White.100}"
+        }
+      },
+      "Text": {
+        "base": {
+          "$type": "color",
+          "$value": "{Color.SpaceGray.200}"
+        },
+        "intense": {
+          "$type": "color",
+          "$value": "{Color.SpaceGray.100}"
+        },
+        "extraIntense": {
+          "$type": "color",
+          "$value": "{Color.SpaceGray.50}"
+        },
+        "muted": {
+          "$type": "color",
+          "$value": "{Color.SpaceGray.300}"
+        },
+        "extraMuted": {
+          "$type": "color",
+          "$value": "{Color.SpaceGray.400}"
+        },
+        "placeholder": {
+          "$type": "color",
+          "$value": "{Color.SpaceGray.400}"
+        },
+        "accent": {
+          "$type": "color",
+          "$value": "{General.Color.Accent.base}"
+        },
+        "onAccent": {
+          "$type": "color",
+          "$value": "{Color.SpaceGray.900}"
+        },
+        "disabled": {
+          "$type": "color",
+          "$value": "{Color.SpaceGray.800}"
+        },
+        "onDisabled": {
+          "$type": "color",
+          "$value": "{Color.SpaceGray.400}"
+        },
+        "info": {
+          "$type": "color",
+          "$value": "{General.Color.Info.base}"
+        },
+        "infoIntense": {
+          "$type": "color",
+          "$value": "{General.Color.Info.intense}"
+        },
+        "destructive": {
+          "$type": "color",
+          "$value": "{General.Color.Destructive.base}"
+        },
+        "destructiveIntense": {
+          "$type": "color",
+          "$value": "{General.Color.Destructive.intense}"
+        },
+        "warning": {
+          "$type": "color",
+          "$value": "{General.Color.Warning.base}"
+        },
+        "warningIntense": {
+          "$type": "color",
+          "$value": "{General.Color.Warning.intense}"
+        },
+        "success": {
+          "$type": "color",
+          "$value": "{General.Color.Success.base}"
+        },
+        "successIntense": {
+          "$type": "color",
+          "$value": "{General.Color.Success.intense}"
+        }
+      },
+      "Icon": {
+        "base": {
+          "$type": "color",
+          "$value": "{Color.SpaceGray.200}"
+        },
+        "intense": {
+          "$type": "color",
+          "$value": "{Color.SpaceGray.100}"
+        },
+        "extraIntense": {
+          "$type": "color",
+          "$value": "{Color.SpaceGray.50}"
+        },
+        "muted": {
+          "$type": "color",
+          "$value": "{Color.SpaceGray.300}"
+        },
+        "extraMuted": {
+          "$type": "color",
+          "$value": "{Color.SpaceGray.400}"
+        },
+        "accent": {
+          "$type": "color",
+          "$value": "{General.Color.Accent.base}"
+        },
+        "accentHover": {
+          "$type": "color",
+          "$value": "{General.Color.Accent.intense}"
+        },
+        "onAccent": {
+          "$type": "color",
+          "$value": "{General.Color.Accent.extraMuted}"
+        },
+        "disabled": {
+          "$type": "color",
+          "$value": "{Color.SpaceGray.800}"
+        },
+        "onDisabled": {
+          "$type": "color",
+          "$value": "{Color.SpaceGray.500}"
+        },
+        "info": {
+          "$type": "color",
+          "$value": "{Color.Blue.500}"
+        },
+        "destructive": {
+          "$type": "color",
+          "$value": "{General.Color.Destructive.base}"
+        },
+        "success": {
+          "$type": "color",
+          "$value": "{General.Color.Success.base}"
+        },
+        "warning": {
+          "$type": "color",
+          "$value": "{General.Color.Warning.base}"
+        }
+      },
+      "Border": {
+        "base": {
+          "$type": "color",
+          "$value": "{Color.SpaceGray.600}"
+        },
+        "intense": {
+          "$type": "color",
+          "$value": "{Color.SpaceGray.500}"
+        },
+        "extraIntense": {
+          "$type": "color",
+          "$value": "{Color.SpaceGray.300}"
+        },
+        "muted": {
+          "$type": "color",
+          "$value": "{Color.SpaceGray.700}"
+        },
+        "extraMuted": {
+          "$type": "color",
+          "$value": "{Color.SpaceGray.800}"
+        },
+        "accent": {
+          "$type": "color",
+          "$value": "{General.Color.Accent.base}"
+        },
+        "accentHover": {
+          "$type": "color",
+          "$value": "{General.Color.Accent.intense}"
+        },
+        "emphasis": {
+          "$type": "color",
+          "$value": "{Color.SpaceGray.50}"
+        },
+        "overlay": {
+          "$type": "color",
+          "$value": "{Color.SpaceGray.500}"
+        },
+        "disabled": {
+          "$type": "color",
+          "$value": "{Color.SpaceGray.600}"
+        },
+        "info": {
+          "$type": "color",
+          "$value": "{General.Color.Info.base}"
+        },
+        "infoMuted": {
+          "$type": "color",
+          "$value": "{General.Color.Info.muted}"
+        },
+        "destructive": {
+          "$type": "color",
+          "$value": "{General.Color.Destructive.muted}"
+        },
+        "success": {
+          "$type": "color",
+          "$value": "{General.Color.Success.muted}"
+        },
+        "warning": {
+          "$type": "color",
+          "$value": "{General.Color.Warning.muted}"
+        }
+      },
+      "Accent": {
+        "base": {
+          "$type": "color",
+          "$value": "{Color.StemGreen.600}"
+        },
+        "baseHover": {
+          "$type": "color",
+          "$value": "{Color.StemGreen.400}"
+        },
+        "intense": {
+          "$type": "color",
+          "$value": "{Color.StemGreen.300}"
+        },
+        "extraIntense": {
+          "$type": "color",
+          "$value": "{Color.StemGreen.200}"
+        },
+        "muted": {
+          "$type": "color",
+          "$value": "{Color.StemGreen.700}"
+        },
+        "extraMuted": {
+          "$type": "color",
+          "$value": "{Color.StemGreen.800}"
+        },
+        "disabled": {
+          "$type": "color",
+          "$value": "{Color.StemGreen.900}"
+        },
+        "onAccent": {
+          "$type": "color",
+          "$value": "{Color.StemGreen.50}"
+        }
+      },
+      "Warning": {
+        "base": {
+          "$type": "color",
+          "$value": "{Color.Yellow.400}"
+        },
+        "intense": {
+          "$type": "color",
+          "$value": "{Color.Yellow.300}"
+        },
+        "extraIntense": {
+          "$type": "color",
+          "$value": "{Color.Yellow.100}"
+        },
+        "muted": {
+          "$type": "color",
+          "$value": "{Color.Yellow.600}"
+        },
+        "extraMuted": {
+          "$type": "color",
+          "$value": "{Color.Yellow.800}"
+        },
+        "disabled": {
+          "$type": "color",
+          "$value": "{Color.Yellow.900}"
+        },
+        "onWarning": {
+          "$type": "color",
+          "$value": "{Color.Yellow.50}"
+        }
+      },
+      "Info": {
+        "base": {
+          "$type": "color",
+          "$value": "{Color.Blue.500}"
+        },
+        "baseHover": {
+          "$type": "color",
+          "$value": "{Color.Blue.400}"
+        },
+        "intense": {
+          "$type": "color",
+          "$value": "{Color.Blue.300}"
+        },
+        "extraIntense": {
+          "$type": "color",
+          "$value": "{Color.Blue.200}"
+        },
+        "muted": {
+          "$type": "color",
+          "$value": "{Color.Blue.700}"
+        },
+        "extraMuted": {
+          "$type": "color",
+          "$value": "{Color.Blue.800}"
+        },
+        "disabled": {
+          "$type": "color",
+          "$value": "{Color.Blue.900}"
+        },
+        "onInfo": {
+          "$type": "color",
+          "$value": "{Color.Blue.50}"
+        }
+      },
+      "Destructive": {
+        "base": {
+          "$type": "color",
+          "$value": "{Color.Red.500}"
+        },
+        "baseHover": {
+          "$type": "color",
+          "$value": "{Color.Red.400}"
+        },
+        "intense": {
+          "$type": "color",
+          "$value": "{Color.Red.300}"
+        },
+        "extraIntense": {
+          "$type": "color",
+          "$value": "{Color.Red.100}"
+        },
+        "muted": {
+          "$type": "color",
+          "$value": "{Color.Red.700}"
+        },
+        "extraMuted": {
+          "$type": "color",
+          "$value": "{Color.Red.800}"
+        },
+        "disabled": {
+          "$type": "color",
+          "$value": "{Color.Red.900}"
+        },
+        "onDestructive": {
+          "$type": "color",
+          "$value": "{Color.Red.50}"
+        }
+      },
+      "Success": {
+        "base": {
+          "$type": "color",
+          "$value": "{Color.Green.500}"
+        },
+        "intense": {
+          "$type": "color",
+          "$value": "{Color.Green.300}"
+        },
+        "extraIntense": {
+          "$type": "color",
+          "$value": "{Color.Green.200}"
+        },
+        "muted": {
+          "$type": "color",
+          "$value": "{Color.Green.700}"
+        },
+        "extraMuted": {
+          "$type": "color",
+          "$value": "{Color.Green.800}"
+        },
+        "disabled": {
+          "$type": "color",
+          "$value": "{Color.Green.900}"
+        },
+        "onSuccess": {
+          "$type": "color",
+          "$value": "{Color.Green.50}"
+        }
+      }
+    },
+    "Spacing": {
+      "Gap": {
+        "none": {
+          "$type": "spacing",
+          "$value": "{Spacing.x0}"
+        },
+        "2xs": {
+          "$type": "spacing",
+          "$value": "{Spacing.x0_5}"
+        },
+        "xs": {
+          "$type": "spacing",
+          "$value": "{Spacing.x1}"
+        },
+        "sm": {
+          "$type": "spacing",
+          "$value": "{Spacing.x1_5}"
+        },
+        "md": {
+          "$type": "spacing",
+          "$value": "{Spacing.x2}"
+        },
+        "lg": {
+          "$type": "spacing",
+          "$value": "{Spacing.x2_5}"
+        },
+        "xl": {
+          "$type": "spacing",
+          "$value": "{Spacing.x3}"
+        },
+        "2xl": {
+          "$type": "spacing",
+          "$value": "{Spacing.x4}"
+        },
+        "3xl": {
+          "$type": "spacing",
+          "$value": "{Spacing.x5}"
+        },
+        "4xl": {
+          "$type": "spacing",
+          "$value": "{Spacing.x6}"
+        },
+        "5xl": {
+          "$type": "spacing",
+          "$value": "{Spacing.x8}"
+        },
+        "huge": {
+          "$type": "spacing",
+          "$value": "{Spacing.x20}"
+        },
+        "enormous": {
+          "$type": "spacing",
+          "$value": "{Spacing.x30}"
+        }
+      },
+      "Padding": {
+        "none": {
+          "$type": "spacing",
+          "$value": "{Spacing.x0}"
+        },
+        "2xs": {
+          "$type": "spacing",
+          "$value": "{Spacing.x0_5}"
+        },
+        "xs": {
+          "$type": "spacing",
+          "$value": "{Spacing.x1}"
+        },
+        "sm": {
+          "$type": "spacing",
+          "$value": "{Spacing.x1_5}"
+        },
+        "md": {
+          "$type": "spacing",
+          "$value": "{Spacing.x2}"
+        },
+        "lg": {
+          "$type": "spacing",
+          "$value": "{Spacing.x2_5}"
+        },
+        "xl": {
+          "$type": "spacing",
+          "$value": "{Spacing.x3}"
+        },
+        "2xl": {
+          "$type": "spacing",
+          "$value": "{Spacing.x4}"
+        },
+        "3xl": {
+          "$type": "spacing",
+          "$value": "{Spacing.x5}"
+        },
+        "4xl": {
+          "$type": "spacing",
+          "$value": "{Spacing.x6}"
+        },
+        "5xl": {
+          "$type": "spacing",
+          "$value": "{Spacing.x8}"
+        },
+        "huge": {
+          "$type": "spacing",
+          "$value": "{Spacing.x20}"
+        },
+        "enormous": {
+          "$type": "spacing",
+          "$value": "{Spacing.x20}"
+        }
+      }
+    },
+    "Typography": {
+      "Display": {
+        "large": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{General.FontFamily.heading}",
+            "fontWeight": "{FontWeight.700}",
+            "fontSize": "{FontSize.48}",
+            "lineHeight": "{LineHeight.tight}",
+            "letterSpacing": "{LetterSpacing.tighter}"
+          }
+        },
+        "small": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{General.FontFamily.heading}",
+            "fontWeight": "{FontWeight.700}",
+            "fontSize": "{FontSize.40}",
+            "lineHeight": "{LineHeight.tight}",
+            "letterSpacing": "{LetterSpacing.tighter}"
+          }
+        }
+      },
+      "Heading": {
+        "h1": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{General.FontFamily.heading}",
+            "fontWeight": "{FontWeight.600}",
+            "fontSize": "{FontSize.34}",
+            "lineHeight": "{LineHeight.tight}",
+            "letterSpacing": "{LetterSpacing.tight}"
+          }
+        },
+        "h2": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{General.FontFamily.heading}",
+            "fontWeight": "{FontWeight.600}",
+            "fontSize": "{FontSize.28}",
+            "lineHeight": "{LineHeight.tight}",
+            "letterSpacing": "{LetterSpacing.tight}"
+          }
+        },
+        "h3": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{General.FontFamily.heading}",
+            "fontWeight": "{FontWeight.600}",
+            "fontSize": "{FontSize.24}",
+            "lineHeight": "{LineHeight.tight}",
+            "letterSpacing": "{LetterSpacing.tight}"
+          }
+        },
+        "h4": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{General.FontFamily.heading}",
+            "fontWeight": "{FontWeight.600}",
+            "fontSize": "{FontSize.20}",
+            "lineHeight": "{LineHeight.tight}",
+            "letterSpacing": "{LetterSpacing.normal}"
+          }
+        },
+        "h5": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{General.FontFamily.heading}",
+            "fontWeight": "{FontWeight.600}",
+            "fontSize": "{FontSize.16}",
+            "lineHeight": "{LineHeight.tight}",
+            "letterSpacing": "{LetterSpacing.normal}"
+          }
+        },
+        "h6": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{General.FontFamily.heading}",
+            "fontWeight": "{FontWeight.600}",
+            "fontSize": "{FontSize.14}",
+            "lineHeight": "{LineHeight.tight}",
+            "letterSpacing": "{LetterSpacing.wide}"
+          }
+        }
+      },
+      "Body": {
+        "large": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{General.FontFamily.text}",
+            "fontWeight": "{FontWeight.400}",
+            "fontSize": "{FontSize.20}",
+            "lineHeight": "{LineHeight.normal}",
+            "letterSpacing": "{LetterSpacing.normal}"
+          }
+        },
+        "base": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{General.FontFamily.text}",
+            "fontWeight": "{FontWeight.400}",
+            "fontSize": "{FontSize.16}",
+            "lineHeight": "{LineHeight.normal}",
+            "letterSpacing": "{LetterSpacing.normal}"
+          }
+        },
+        "small": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{General.FontFamily.text}",
+            "fontWeight": "{FontWeight.400}",
+            "fontSize": "{FontSize.14}",
+            "lineHeight": "{LineHeight.normal}",
+            "letterSpacing": "{LetterSpacing.normal}"
+          }
+        },
+        "largeBold": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{General.FontFamily.text}",
+            "fontWeight": "{FontWeight.600}",
+            "fontSize": "{FontSize.20}",
+            "lineHeight": "{LineHeight.normal}",
+            "letterSpacing": "{LetterSpacing.normal}"
+          }
+        },
+        "baseBold": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{General.FontFamily.text}",
+            "fontWeight": "{FontWeight.600}",
+            "fontSize": "{FontSize.16}",
+            "lineHeight": "{LineHeight.normal}",
+            "letterSpacing": "{LetterSpacing.normal}"
+          }
+        },
+        "smallBold": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{General.FontFamily.text}",
+            "fontWeight": "{FontWeight.600}",
+            "fontSize": "{FontSize.14}",
+            "lineHeight": "{LineHeight.normal}",
+            "letterSpacing": "{LetterSpacing.normal}"
+          }
+        }
+      },
+      "Label": {
+        "large": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{General.FontFamily.text}",
+            "fontWeight": "{FontWeight.500}",
+            "fontSize": "{FontSize.16}",
+            "lineHeight": "{LineHeight.tight}",
+            "letterSpacing": "{LetterSpacing.normal}"
+          }
+        },
+        "base": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{General.FontFamily.text}",
+            "fontWeight": "{FontWeight.500}",
+            "fontSize": "{FontSize.14}",
+            "lineHeight": "{LineHeight.tight}",
+            "letterSpacing": "{LetterSpacing.normal}"
+          }
+        },
+        "small": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{General.FontFamily.text}",
+            "fontWeight": "{FontWeight.500}",
+            "fontSize": "{FontSize.12}",
+            "lineHeight": "{LineHeight.tight}",
+            "letterSpacing": "{LetterSpacing.wide}"
+          }
+        }
+      },
+      "Caption": {
+        "base": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{General.FontFamily.text}",
+            "fontWeight": "{FontWeight.400}",
+            "fontSize": "{FontSize.12}",
+            "lineHeight": "{LineHeight.normal}",
+            "letterSpacing": "{LetterSpacing.wide}"
+          }
+        },
+        "bold": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{General.FontFamily.text}",
+            "fontWeight": "{FontWeight.600}",
+            "fontSize": "{FontSize.12}",
+            "lineHeight": "{LineHeight.normal}",
+            "letterSpacing": "{LetterSpacing.wide}"
+          }
+        }
+      },
+      "Overline": {
+        "base": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{General.FontFamily.text}",
+            "fontWeight": "{FontWeight.600}",
+            "fontSize": "{FontSize.11}",
+            "lineHeight": "{LineHeight.tight}",
+            "letterSpacing": "{LetterSpacing.widest}",
+            "textCase": "{TextCase.uppercase}"
+          }
+        },
+        "small": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{General.FontFamily.text}",
+            "fontWeight": "{FontWeight.600}",
+            "fontSize": "{FontSize.10}",
+            "lineHeight": "{LineHeight.tight}",
+            "letterSpacing": "{LetterSpacing.widest}",
+            "textCase": "{TextCase.uppercase}"
+          }
+        }
+      },
+      "Code": {
+        "base": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{General.FontFamily.captions}",
+            "fontWeight": "{FontWeight.400}",
+            "fontSize": "{FontSize.14}",
+            "lineHeight": "{LineHeight.normal}",
+            "letterSpacing": "{LetterSpacing.normal}"
+          }
+        },
+        "small": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{General.FontFamily.captions}",
+            "fontWeight": "{FontWeight.400}",
+            "fontSize": "{FontSize.12}",
+            "lineHeight": "{LineHeight.normal}",
+            "letterSpacing": "{LetterSpacing.normal}"
+          }
+        },
+        "bold": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{General.FontFamily.captions}",
+            "fontWeight": "{FontWeight.700}",
+            "fontSize": "{FontSize.14}",
+            "lineHeight": "{LineHeight.normal}",
+            "letterSpacing": "{LetterSpacing.normal}"
+          }
+        }
+      },
+      "Input": {
+        "label": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{General.FontFamily.text}",
+            "fontWeight": "{FontWeight.500}",
+            "fontSize": "{FontSize.14}",
+            "lineHeight": "{LineHeight.tight}",
+            "letterSpacing": "{LetterSpacing.normal}"
+          }
+        },
+        "text": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{General.FontFamily.text}",
+            "fontWeight": "{FontWeight.400}",
+            "fontSize": "{FontSize.16}",
+            "lineHeight": "{LineHeight.normal}",
+            "letterSpacing": "{LetterSpacing.normal}"
+          }
+        },
+        "helpText": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{General.FontFamily.text}",
+            "fontWeight": "{FontWeight.400}",
+            "fontSize": "{FontSize.13}",
+            "lineHeight": "{LineHeight.normal}",
+            "letterSpacing": "{LetterSpacing.normal}"
+          }
+        }
+      },
+      "Button": {
+        "Label": {
+          "large": {
+            "$type": "typography",
+            "$value": {
+              "fontFamily": "{General.FontFamily.text}",
+              "fontWeight": "{FontWeight.600}",
+              "fontSize": "{FontSize.16}",
+              "lineHeight": "{LineHeight.tight}",
+              "letterSpacing": "{LetterSpacing.normal}"
+            }
+          },
+          "medium": {
+            "$type": "typography",
+            "$value": {
+              "fontFamily": "{General.FontFamily.text}",
+              "fontWeight": "{FontWeight.600}",
+              "fontSize": "{FontSize.14}",
+              "lineHeight": "{LineHeight.tight}",
+              "letterSpacing": "{LetterSpacing.normal}"
+            }
+          },
+          "small": {
+            "$type": "typography",
+            "$value": {
+              "fontFamily": "{General.FontFamily.text}",
+              "fontWeight": "{FontWeight.600}",
+              "fontSize": "{FontSize.12}",
+              "lineHeight": "{LineHeight.tight}",
+              "letterSpacing": "{LetterSpacing.wide}"
+            }
+          }
+        }
+      }
+    },
+    "Elevation": {
+      "Surface": {
+        "base": {
+          "$type": "color",
+          "$value": "{Color.SpaceGray.800}"
+        },
+        "raised": {
+          "$type": "color",
+          "$value": "{Color.SpaceGray.600}"
+        },
+        "overlay": {
+          "$type": "color",
+          "$value": "{Color.Alpha.White.400}"
+        },
+        "recessed": {
+          "$type": "color",
+          "$value": "{Color.SpaceGray.900}"
+        }
+      },
+      "Shadow": {
+        "raised": {
+          "$type": "boxShadow",
+          "$value": "0px 0px 0px rgba(0, 0, 0, 0),0px 1px 1px rgba(3, 4, 4, 0.5),0px 0px 1px rgba(3, 4, 4, 0.5)"
+        },
+        "overlay": {
+          "$type": "boxShadow",
+          "$value": "0px 0px 0px rgba(57, 66, 74, 1),0px 8px 12px rgba(3, 4, 4, 0.36),0px 0px 1px rgba(3, 4, 4, 0.5)"
+        }
+      }
+    },
+    "FontWeight": {
+      "Heading": {
+        "bold": {
+          "$type": "fontWeights",
+          "$value": "{FontWeight.700}"
+        },
+        "semiBold": {
+          "$type": "fontWeights",
+          "$value": "{FontWeight.600}"
+        },
+        "regular": {
+          "$type": "fontWeights",
+          "$value": "{FontWeight.400}"
+        }
+      },
+      "Text": {
+        "bold": {
+          "$type": "fontWeights",
+          "$value": "{FontWeight.700}"
+        },
+        "semiBold": {
+          "$type": "fontWeights",
+          "$value": "{FontWeight.600}"
+        },
+        "regular": {
+          "$type": "fontWeights",
+          "$value": "{FontWeight.400}"
+        }
+      }
+    },
+    "BorderRadius": {
+      "base": {
+        "$type": "borderRadius",
+        "$value": "{BorderRadius.md}"
+      },
+      "xs": {
+        "$type": "borderRadius",
+        "$value": "{BorderRadius.2xs}"
+      },
+      "sm": {
+        "$type": "borderRadius",
+        "$value": "{BorderRadius.xs}"
+      },
+      "md": {
+        "$type": "borderRadius",
+        "$value": "{BorderRadius.sm}"
+      },
+      "lg": {
+        "$type": "borderRadius",
+        "$value": "{BorderRadius.lg}"
+      },
+      "rounded": {
+        "$type": "borderRadius",
+        "$value": "{BorderRadius.pill}"
+      }
+    },
+    "FocusRing": {
+      "brand": {
+        "$type": "boxShadow",
+        "$value": [
+          {
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "{General.BorderWidth.thin}",
+            "color": "{General.Color.Background.base}",
+            "type": "dropShadow"
+          },
+          {
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "4px",
+            "color": "{General.Color.Accent.intense}",
+            "type": "dropShadow"
+          }
+        ]
+      },
+      "destructive": {
+        "$type": "boxShadow",
+        "$value": [
+          {
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "2px",
+            "color": "{General.Color.Background.base}",
+            "type": "dropShadow"
+          },
+          {
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "4px",
+            "color": "{General.Color.Destructive.baseHover}",
+            "type": "dropShadow"
+          }
+        ]
+      },
+      "info": {
+        "$type": "boxShadow",
+        "$value": [
+          {
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "2px",
+            "color": "{General.Color.Background.base}",
+            "type": "dropShadow"
+          },
+          {
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "4px",
+            "color": "{General.Color.Info.baseHover}",
+            "type": "dropShadow"
+          }
+        ]
+      },
+      "warning": {
+        "$type": "boxShadow",
+        "$value": [
+          {
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "2px",
+            "color": "{General.Color.Background.base}",
+            "type": "dropShadow"
+          },
+          {
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "4px",
+            "color": "{General.Color.Warning.intense}",
+            "type": "dropShadow"
+          }
+        ]
+      },
+      "success": {
+        "$type": "boxShadow",
+        "$value": [
+          {
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "2px",
+            "color": "{General.Color.Background.base}",
+            "type": "dropShadow"
+          },
+          {
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "4px",
+            "color": "{General.Color.Success.base}",
+            "type": "dropShadow"
+          }
+        ]
+      }
+    },
+    "BorderWidth": {
+      "default": {
+        "$type": "borderWidth",
+        "$value": "{BorderWidth.hairline}"
+      },
+      "thin": {
+        "$type": "borderWidth",
+        "$value": "{BorderWidth.thin}"
+      },
+      "thick": {
+        "$type": "borderWidth",
+        "$value": "{BorderWidth.thick}"
+      }
+    }
+  },
+  "Component": {
+    "Button": {
+      "Common": {
+        "borderWidth": {
+          "$type": "borderWidth",
+          "$value": "{General.BorderWidth.default}"
+        },
+        "paddingX": {
+          "medium": {
+            "$type": "spacing",
+            "$value": "{General.Spacing.Padding.lg}"
+          },
+          "small": {
+            "$type": "spacing",
+            "$value": "{General.Spacing.Padding.sm}"
+          },
+          "large": {
+            "$type": "spacing",
+            "$value": "{General.Spacing.Padding.xl}"
+          }
+        },
+        "paddingY": {
+          "medium": {
+            "$type": "spacing",
+            "$value": "{General.Spacing.Padding.md}"
+          },
+          "small": {
+            "$type": "spacing",
+            "$value": "{General.Spacing.Padding.xs}"
+          },
+          "large": {
+            "$type": "spacing",
+            "$value": "{General.Spacing.Padding.lg}"
+          }
+        },
+        "gap": {
+          "medium": {
+            "$type": "spacing",
+            "$value": "{General.Spacing.Gap.sm}"
+          },
+          "small": {
+            "$type": "spacing",
+            "$value": "{General.Spacing.Gap.xs}"
+          },
+          "large": {
+            "$type": "spacing",
+            "$value": "{General.Spacing.Gap.sm}"
+          }
+        },
+        "fontFamily": {
+          "$type": "fontFamilies",
+          "$value": "{General.FontFamily.text}"
+        },
+        "borderRadius": {
+          "$type": "borderRadius",
+          "$value": "{General.BorderRadius.sm}"
+        }
+      },
+      "Primary": {
+        "Default": {
+          "backgroundColor": {
+            "$type": "color",
+            "$value": "{General.Color.Accent.base}"
+          },
+          "textColor": {
+            "$type": "color",
+            "$value": "{General.Color.Text.onAccent}"
+          },
+          "iconColor": {
+            "$type": "color",
+            "$value": "{General.Color.Icon.onAccent}"
+          }
+        },
+        "Hover": {
+          "backgroundColor": {
+            "$type": "color",
+            "$value": "{General.Color.Accent.intense}"
+          }
+        },
+        "Focused": {
+          "backgroundColor": {
+            "$type": "color",
+            "$value": "{General.Color.Accent.base}"
+          }
+        },
+        "Pressed": {
+          "backgroundColor": {
+            "$type": "color",
+            "$value": "{General.Color.Accent.muted}"
+          }
+        },
+        "Active": {
+          "backgroundColor": {
+            "$type": "color",
+            "$value": "{General.Color.Accent.muted}"
+          },
+          "textColor": {
+            "$type": "color",
+            "$value": "{General.Color.Accent.extraIntense}"
+          },
+          "iconColor": {
+            "$type": "color",
+            "$value": "{General.Color.Accent.extraIntense}"
+          }
+        },
+        "Disabled": {
+          "backgroundColor": {
+            "$type": "color",
+            "$value": "{General.Color.Accent.disabled}"
+          },
+          "textColor": {
+            "$type": "color",
+            "$value": "{General.Color.Accent.extraMuted}"
+          },
+          "iconColor": {
+            "$type": "color",
+            "$value": "{General.Color.Accent.extraMuted}"
+          }
+        },
+        "Pending": {
+          "backgroundColor": {
+            "$type": "color",
+            "$value": "{General.Color.Accent.intense}"
+          },
+          "textColor": {
+            "$type": "color",
+            "$value": "{General.Color.Text.onAccent}"
+          }
+        }
+      },
+      "Secondary": {
+        "Default": {
+          "backgroundColor": {
+            "$type": "color",
+            "$value": "{General.Color.Background.intense}"
+          },
+          "textColor": {
+            "$type": "color",
+            "$value": "{General.Color.Text.base}"
+          },
+          "iconColor": {
+            "$type": "color",
+            "$value": "{General.Color.Icon.extraMuted}"
+          }
+        },
+        "Hover": {
+          "backgroundColor": {
+            "$type": "color",
+            "$value": "{General.Color.Background.extraIntense}"
+          },
+          "iconColor": {
+            "$type": "color",
+            "$value": "{General.Color.Icon.base}"
+          }
+        },
+        "Focused": {
+          "backgroundColor": {
+            "$type": "color",
+            "$value": "{General.Color.Background.intense}"
+          }
+        },
+        "Pressed": {
+          "backgroundColor": {
+            "$type": "color",
+            "$value": "{General.Color.Background.hover}"
+          },
+          "textColor": {
+            "$type": "color",
+            "$value": "{General.Color.Text.muted}"
+          }
+        },
+        "Active": {
+          "backgroundColor": {
+            "$type": "color",
+            "$value": "{General.Color.Background.intense}"
+          },
+          "textColor": {
+            "$type": "color",
+            "$value": "{General.Color.Text.accent}"
+          },
+          "iconColor": {
+            "$type": "color",
+            "$value": "{General.Color.Text.accent}"
+          },
+          "borderColor": {
+            "$type": "color",
+            "$value": "{General.Color.Accent.base}"
+          }
+        },
+        "Disabled": {
+          "backgroundColor": {
+            "$type": "color",
+            "$value": "{General.Color.Background.disabled}"
+          },
+          "textColor": {
+            "$type": "color",
+            "$value": "{General.Color.Text.onDisabled}"
+          },
+          "iconColor": {
+            "$type": "color",
+            "$value": "{General.Color.Text.onDisabled}"
+          }
+        },
+        "Pending": {
+          "backgroundColor": {
+            "$type": "color",
+            "$value": "{General.Color.Background.extraIntense}"
+          },
+          "textColor": {
+            "$type": "color",
+            "$value": "{General.Color.Text.muted}"
+          }
+        }
+      },
+      "Tertiary": {
+        "Default": {
+          "backgroundColor": {
+            "$type": "color",
+            "$value": "{General.Color.Background.base}"
+          },
+          "textColor": {
+            "$type": "color",
+            "$value": "{General.Color.Text.base}"
+          },
+          "iconColor": {
+            "$type": "color",
+            "$value": "{General.Color.Icon.extraMuted}"
+          }
+        },
+        "Hover": {
+          "backgroundColor": {
+            "$type": "color",
+            "$value": "{General.Color.Background.intense}"
+          },
+          "iconColor": {
+            "$type": "color",
+            "$value": "{General.Color.Icon.base}"
+          }
+        },
+        "Focused": {
+          "backgroundColor": {
+            "$type": "color",
+            "$value": "{General.Color.Background.base}"
+          }
+        },
+        "Pressed": {
+          "backgroundColor": {
+            "$type": "color",
+            "$value": "{General.Color.Background.muted}"
+          },
+          "textColor": {
+            "$type": "color",
+            "$value": "{General.Color.Text.extraMuted}"
+          },
+          "iconColor": {
+            "$type": "color",
+            "$value": "{General.Color.Text.extraMuted}"
+          }
+        },
+        "Active": {
+          "backgroundColor": {
+            "$type": "color",
+            "$value": "{General.Color.Background.intense}"
+          },
+          "textColor": {
+            "$type": "color",
+            "$value": "{General.Color.Text.accent}"
+          },
+          "iconColor": {
+            "$type": "color",
+            "$value": "{General.Color.Text.accent}"
+          },
+          "borderColor": {
+            "$type": "color",
+            "$value": "{General.Color.Accent.base}"
+          }
+        },
+        "Disabled": {
+          "backgroundColor": {
+            "$type": "color",
+            "$value": "{General.Color.Background.disabled}"
+          },
+          "textColor": {
+            "$type": "color",
+            "$value": "{General.Color.Text.onDisabled}"
+          },
+          "iconColor": {
+            "$type": "color",
+            "$value": "{General.Color.Text.onDisabled}"
+          }
+        },
+        "Pending": {
+          "backgroundColor": {
+            "$type": "color",
+            "$value": "{General.Color.Background.extraIntense}"
+          },
+          "textColor": {
+            "$type": "color",
+            "$value": "{General.Color.Text.muted}"
+          }
+        }
+      },
+      "Outline": {
+        "Default": {
+          "backgroundColor": {
+            "$type": "color",
+            "$value": "{General.Color.Background.transparent}"
+          },
+          "textColor": {
+            "$type": "color",
+            "$value": "{General.Color.Text.base}"
+          },
+          "iconColor": {
+            "$type": "color",
+            "$value": "{General.Color.Icon.extraMuted}"
+          },
+          "borderColor": {
+            "$type": "color",
+            "$value": "{General.Color.Border.intense}"
+          }
+        },
+        "Hover": {
+          "borderColor": {
+            "$type": "color",
+            "$value": "{General.Color.Border.extraIntense}"
+          },
+          "iconColor": {
+            "$type": "color",
+            "$value": "{General.Color.Icon.base}"
+          }
+        },
+        "Focused": {
+          "textColor": {
+            "$type": "color",
+            "$value": "{General.Color.Text.intense}"
+          }
+        },
+        "Pressed": {
+          "textColor": {
+            "$type": "color",
+            "$value": "{General.Color.Text.extraMuted}"
+          },
+          "borderColor": {
+            "$type": "color",
+            "$value": "{General.Color.Border.muted}"
+          }
+        },
+        "Active": {
+          "textColor": {
+            "$type": "color",
+            "$value": "{General.Color.Text.accent}"
+          },
+          "iconColor": {
+            "$type": "color",
+            "$value": "{General.Color.Text.accent}"
+          },
+          "borderColor": {
+            "$type": "color",
+            "$value": "{General.Color.Accent.base}"
+          }
+        },
+        "Disabled": {
+          "textColor": {
+            "$type": "color",
+            "$value": "{General.Color.Text.onDisabled}"
+          },
+          "borderColor": {
+            "$type": "color",
+            "$value": "{General.Color.Border.disabled}"
+          },
+          "iconColor": {
+            "$type": "color",
+            "$value": "{General.Color.Text.onDisabled}"
+          }
+        },
+        "Pending": {
+          "textColor": {
+            "$type": "color",
+            "$value": "{General.Color.Text.muted}"
+          },
+          "borderColor": {
+            "$type": "color",
+            "$value": "{General.Color.Border.disabled}"
+          }
+        }
+      },
+      "Ghost": {
+        "Default": {
+          "backgroundColor": {
+            "$type": "color",
+            "$value": "{General.Color.Background.transparent}"
+          },
+          "textColor": {
+            "$type": "color",
+            "$value": "{General.Color.Text.base}"
+          },
+          "iconColor": {
+            "$type": "color",
+            "$value": "{General.Color.Icon.extraMuted}"
+          }
+        },
+        "Hover": {
+          "backgroundColor": {
+            "$type": "color",
+            "$value": "{General.Color.Background.hoverSubtle}"
+          },
+          "iconColor": {
+            "$type": "color",
+            "$value": "{General.Color.Icon.base}"
+          }
+        },
+        "Focused": {
+          "textColor": {
+            "$type": "color",
+            "$value": "{General.Color.Text.intense}"
+          }
+        },
+        "Pressed": {
+          "textColor": {
+            "$type": "color",
+            "$value": "{General.Color.Text.extraMuted}"
+          }
+        },
+        "Active": {
+          "textColor": {
+            "$type": "color",
+            "$value": "{General.Color.Text.accent}"
+          },
+          "iconColor": {
+            "$type": "color",
+            "$value": "{General.Color.Text.accent}"
+          }
+        },
+        "Disabled": {
+          "textColor": {
+            "$type": "color",
+            "$value": "{General.Color.Text.onDisabled}"
+          },
+          "iconColor": {
+            "$type": "color",
+            "$value": "{General.Color.Text.onDisabled}"
+          }
+        },
+        "Pending": {
+          "textColor": {
+            "$type": "color",
+            "$value": "{General.Color.Text.muted}"
+          }
+        }
+      },
+      "Link": {
+        "Default": {
+          "backgroundColor": {
+            "$type": "color",
+            "$value": "{General.Color.Background.transparent}"
+          },
+          "textColor": {
+            "$type": "color",
+            "$value": "{General.Color.Text.base}"
+          },
+          "iconColor": {
+            "$type": "color",
+            "$value": "{General.Color.Icon.extraMuted}"
+          }
+        },
+        "Hover": {
+          "iconColor": {
+            "$type": "color",
+            "$value": "{General.Color.Icon.base}"
+          }
+        },
+        "Focused": {
+          "textColor": {
+            "$type": "color",
+            "$value": "{General.Color.Text.base}"
+          }
+        },
+        "Pressed": {
+          "textColor": {
+            "$type": "color",
+            "$value": "{General.Color.Text.extraMuted}"
+          }
+        },
+        "Active": {
+          "textColor": {
+            "$type": "color",
+            "$value": "{General.Color.Text.accent}"
+          },
+          "iconColor": {
+            "$type": "color",
+            "$value": "{General.Color.Text.accent}"
+          }
+        },
+        "Disabled": {
+          "textColor": {
+            "$type": "color",
+            "$value": "{General.Color.Text.disabled}"
+          },
+          "iconColor": {
+            "$type": "color",
+            "$value": "{General.Color.Text.disabled}"
+          }
+        },
+        "Pending": {
+          "textColor": {
+            "$type": "color",
+            "$value": "{General.Color.Text.muted}"
+          }
+        }
+      },
+      "Destructive": {
+        "Default": {
+          "backgroundColor": {
+            "$type": "color",
+            "$value": "{General.Color.Destructive.base}"
+          },
+          "textColor": {
+            "$type": "color",
+            "$value": "{General.Color.Destructive.onDestructive}"
+          },
+          "iconColor": {
+            "$type": "color",
+            "$value": "{General.Color.Destructive.intense}"
+          }
+        },
+        "Hover": {
+          "backgroundColor": {
+            "$type": "color",
+            "$value": "{General.Color.Destructive.baseHover}"
+          },
+          "iconColor": {
+            "$type": "color",
+            "$value": "{General.Color.Destructive.onDestructive}"
+          }
+        },
+        "Focused": {
+          "backgroundColor": {
+            "$type": "color",
+            "$value": "{General.Color.Destructive.base}"
+          }
+        },
+        "Pressed": {
+          "backgroundColor": {
+            "$type": "color",
+            "$value": "{General.Color.Destructive.muted}"
+          },
+          "textColor": {
+            "$type": "color",
+            "$value": "{General.Color.Destructive.baseHover}"
+          },
+          "iconColor": {
+            "$type": "color",
+            "$value": "{General.Color.Destructive.baseHover}"
+          }
+        },
+        "Disabled": {
+          "backgroundColor": {
+            "$type": "color",
+            "$value": "{General.Color.Destructive.extraMuted}"
+          },
+          "textColor": {
+            "$type": "color",
+            "$value": "{General.Color.Destructive.base}"
+          },
+          "iconColor": {
+            "$type": "color",
+            "$value": "{General.Color.Destructive.base}"
+          }
+        }
+      },
+      "IconButton": {
+        "paddingX": {
+          "medium": {
+            "$type": "spacing",
+            "$value": "{General.Spacing.Padding.md}"
+          },
+          "small": {
+            "$type": "spacing",
+            "$value": "{General.Spacing.Padding.xs}"
+          },
+          "large": {
+            "$type": "spacing",
+            "$value": "{General.Spacing.Padding.lg}"
+          }
+        },
+        "paddingY": {
+          "medium": {
+            "$type": "spacing",
+            "$value": "{General.Spacing.Padding.md}"
+          },
+          "small": {
+            "$type": "spacing",
+            "$value": "{General.Spacing.Padding.xs}"
+          },
+          "large": {
+            "$type": "spacing",
+            "$value": "{General.Spacing.Padding.lg}"
+          }
+        }
+      },
+      "Large": {
+        "borderWidth": {
+          "$type": "borderWidth",
+          "$value": "{General.BorderWidth.thin}"
+        },
+        "borderRadius": {
+          "$type": "borderRadius",
+          "$value": "{General.BorderRadius.md}"
+        }
+      },
+      "XLarge": {
+        "borderRadius": {
+          "$type": "borderRadius",
+          "$value": "{General.BorderRadius.base}"
+        }
+      }
+    },
+    "Card": {
+      "Common": {
+        "borderWidth": {
+          "$type": "borderWidth",
+          "$value": "{General.BorderWidth.thin}"
+        },
+        "paddingX": {
+          "$type": "spacing",
+          "$value": "{General.Spacing.Padding.4xl}"
+        },
+        "paddingY": {
+          "$type": "spacing",
+          "$value": "{General.Spacing.Padding.4xl}"
+        },
+        "gap": {
+          "$type": "spacing",
+          "$value": "{General.Spacing.Gap.5xl}"
+        },
+        "gapHeadingText": {
+          "$type": "spacing",
+          "$value": "{General.Spacing.Gap.xl}"
+        },
+        "gapContentY": {
+          "$type": "spacing",
+          "$value": "{General.Spacing.Gap.xs}"
+        },
+        "gapContentX": {
+          "$type": "spacing",
+          "$value": "{General.Spacing.Gap.xl}"
+        },
+        "gapFooterActions": {
+          "$type": "spacing",
+          "$value": "{General.Spacing.Gap.xl}"
+        },
+        "borderRadius": {
+          "$type": "borderRadius",
+          "$value": "{General.BorderRadius.base}"
+        }
+      },
+      "Modal": {
+        "borderWidth": {
+          "$type": "borderWidth",
+          "$value": "{General.BorderWidth.default}"
+        }
+      },
+      "Schema": {
+        "paddingX": {
+          "$type": "spacing",
+          "$value": "{General.Spacing.Padding.xl}"
+        },
+        "paddingY": {
+          "$type": "spacing",
+          "$value": "{General.Spacing.Padding.xl}"
+        },
+        "gap": {
+          "$type": "spacing",
+          "$value": "{General.Spacing.Gap.4xl}"
+        },
+        "gapHeaderItems": {
+          "$type": "spacing",
+          "$value": "{General.Spacing.Gap.sm}"
+        },
+        "gapListItems": {
+          "$type": "spacing",
+          "$value": "{General.Spacing.Gap.xs}"
+        },
+        "gapContentX": {
+          "$type": "spacing",
+          "$value": "{General.Spacing.Gap.xl}"
+        }
+      }
+    },
+    "CodeBlock": {
+      "Common": {
+        "fontFamily": {
+          "$type": "fontFamilies",
+          "$value": "{General.FontFamily.captions}"
+        }
+      }
+    },
+    "Modal": {
+      "Spacing": {
+        "Common": {
+          "paddingX": {
+            "$type": "spacing",
+            "$value": "{General.Spacing.Padding.4xl}"
+          },
+          "paddingY": {
+            "$type": "spacing",
+            "$value": "{General.Spacing.Padding.4xl}"
+          },
+          "gap": {
+            "$type": "spacing",
+            "$value": "{General.Spacing.Padding.4xl}"
+          },
+          "gapText": {
+            "$type": "spacing",
+            "$value": "{General.Spacing.Padding.2xl}"
+          },
+          "gapFooterActions": {
+            "$type": "spacing",
+            "$value": "{General.Spacing.Padding.md}"
+          }
+        },
+        "Large": {
+          "gap": {
+            "$type": "spacing",
+            "$value": "{General.Spacing.Padding.2xl}"
+          }
+        },
+        "Alert": {
+          "paddingX": {
+            "$type": "spacing",
+            "$value": "{General.Spacing.Padding.4xl}"
+          },
+          "paddingY": {
+            "$type": "spacing",
+            "$value": "{General.Spacing.Padding.4xl}"
+          }
+        }
+      },
+      "backgroundColor": {
+        "$type": "color",
+        "$value": "{General.Color.Background.base}"
+      },
+      "borderColor": {
+        "$type": "color",
+        "$value": "{General.Color.Border.intense}"
+      },
+      "MaxWidth": {
+        "base": {
+          "$type": "sizing",
+          "$value": "640px"
+        },
+        "large": {
+          "$type": "sizing",
+          "$value": "1024px"
+        },
+        "small": {
+          "$type": "sizing",
+          "$value": "480px"
+        }
+      },
+      "loginImage": {
+        "$type": "asset",
+        "$value": "https://images.unsplash.com/photo-1634361522365-72d91d5dec85?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      },
+      "registerImage": {
+        "$type": "asset",
+        "$value": "https://images.unsplash.com/photo-1758472712764-4b746ea18d9b?q=80&w=1760&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      }
+    },
+    "LoadingSpinner": {
+      "Light": {
+        "outer": {
+          "$type": "color",
+          "$value": "{General.Color.Background.overlay}"
+        },
+        "progress": {
+          "$type": "color",
+          "$value": "{General.Color.Text.extraIntense}"
+        }
+      },
+      "Colour": {
+        "outer": {
+          "$type": "color",
+          "$value": "{General.Color.Accent.extraMuted}"
+        },
+        "progress": {
+          "$type": "color",
+          "$value": "{General.Color.Accent.base}"
+        }
+      },
+      "Size": {
+        "medium": {
+          "$type": "sizing",
+          "$value": "{Sizing.x5}"
+        },
+        "small": {
+          "$type": "sizing",
+          "$value": "{Sizing.x4}"
+        },
+        "large": {
+          "$type": "sizing",
+          "$value": "{Sizing.x6}"
+        }
+      }
+    },
+    "Input": {
+      "Common": {
+        "paddingY": {
+          "field": {
+            "$type": "spacing",
+            "$value": "{General.Spacing.Padding.sm}"
+          }
+        },
+        "gap": {
+          "labelAsterisk": {
+            "$type": "spacing",
+            "$value": "{General.Spacing.Gap.2xs}"
+          },
+          "labelRowItems": {
+            "$type": "spacing",
+            "$value": "{General.Spacing.Gap.xs}"
+          },
+          "betweenLabelInput": {
+            "$type": "spacing",
+            "$value": "{General.Spacing.Gap.xs}"
+          },
+          "betweenFieldHelp": {
+            "$type": "spacing",
+            "$value": "{General.Spacing.Gap.xs}"
+          },
+          "fieldContent": {
+            "$type": "spacing",
+            "$value": "{General.Spacing.Gap.sm}"
+          }
+        },
+        "paddingX": {
+          "label": {
+            "$type": "spacing",
+            "$value": "{General.Spacing.Gap.sm}"
+          },
+          "help": {
+            "$type": "spacing",
+            "$value": "{General.Spacing.Gap.sm}"
+          },
+          "field": {
+            "$type": "spacing",
+            "$value": "{General.Spacing.Gap.xl}"
+          }
+        },
+        "borderRadius": {
+          "$type": "borderRadius",
+          "$value": "{General.BorderRadius.md}"
+        }
+      },
+      "IconButton": {
+        "paddingX": {
+          "medium": {
+            "$type": "spacing",
+            "$value": "{General.Spacing.Padding.md}"
+          },
+          "small": {
+            "$type": "spacing",
+            "$value": "{General.Spacing.Padding.xs}"
+          },
+          "large": {
+            "$type": "spacing",
+            "$value": "{General.Spacing.Padding.lg}"
+          }
+        },
+        "paddingY": {
+          "medium": {
+            "$type": "spacing",
+            "$value": "{General.Spacing.Padding.md}"
+          },
+          "small": {
+            "$type": "spacing",
+            "$value": "{General.Spacing.Padding.xs}"
+          },
+          "large": {
+            "$type": "spacing",
+            "$value": "{General.Spacing.Padding.lg}"
+          }
+        }
+      }
+    },
+    "Checkbox": {
+      "Common": {
+        "borderRadius": {
+          "$type": "borderRadius",
+          "$value": "{General.BorderRadius.xs}"
+        }
+      }
+    },
+    "Badge": {
+      "Common": {
+        "borderRadius": {
+          "$type": "borderRadius",
+          "$value": "{General.BorderRadius.sm}"
+        }
+      }
+    },
+    "Tag": {
+      "Common": {
+        "borderRadius": {
+          "$type": "borderRadius",
+          "$value": "{General.BorderRadius.rounded}"
+        }
+      }
+    },
+    "InputField": {
+      "Common": {
+        "fieldBackground": {
+          "$type": "color",
+          "$value": "{General.Color.Background.intense}"
+        },
+        "fieldBorder": {
+          "$type": "color",
+          "$value": "{General.Color.Border.intense}"
+        },
+        "label": {
+          "$type": "color",
+          "$value": "{General.Color.Text.base}"
+        },
+        "textPlaceholder": {
+          "$type": "color",
+          "$value": "{General.Color.Text.placeholder}"
+        },
+        "text": {
+          "$type": "color",
+          "$value": "{General.Color.Text.base}"
+        },
+        "helpText": {
+          "$type": "color",
+          "$value": "{General.Color.Text.muted}"
+        },
+        "iconColor": {
+          "$type": "color",
+          "$value": "{General.Color.Icon.extraMuted}"
+        }
+      },
+      "Hover": {
+        "fieldBackground": {
+          "$type": "color",
+          "$value": "{General.Color.Background.extraIntense}"
+        },
+        "fieldBorder": {
+          "$type": "color",
+          "$value": "{General.Color.Border.intense}"
+        },
+        "text": {
+          "$type": "color",
+          "$value": "{General.Color.Text.intense}"
+        }
+      },
+      "Focused": {
+        "fieldBackground": {
+          "$type": "color",
+          "$value": "{General.Color.Background.extraIntense}"
+        },
+        "fieldBorder": {
+          "$type": "color",
+          "$value": "{General.Color.Border.accent}"
+        },
+        "text": {
+          "$type": "color",
+          "$value": "{General.Color.Text.extraIntense}"
+        }
+      },
+      "Disabled": {
+        "fieldBackground": {
+          "$type": "color",
+          "$value": "{General.Color.Background.disabled}"
+        },
+        "fieldBorder": {
+          "$type": "color",
+          "$value": "{General.Color.Border.disabled}"
+        },
+        "text": {
+          "$type": "color",
+          "$value": "{General.Color.Text.onDisabled}"
+        }
+      },
+      "Filled": {
+        "text": {
+          "$type": "color",
+          "$value": "{General.Color.Text.extraIntense}"
+        }
+      }
+    }
+  },
+  "Animation": {
+    "Transition": {
+      "in": {
+        "$type": "other",
+        "$value": "ease-in"
+      },
+      "out": {
+        "$type": "other",
+        "$value": "ease-out"
+      }
+    },
+    "Duration": {
+      "in": {
+        "$type": "other",
+        "$value": "200ms"
+      },
+      "out": {
+        "$type": "other",
+        "$value": "700ms"
+      }
+    }
+  }
+}
